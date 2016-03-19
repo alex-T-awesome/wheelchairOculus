@@ -4,7 +4,7 @@ using System.Collections;
 public class WheelChairCollider : MonoBehaviour {
 
 	public TextMesh HeadsUpDisplay;
-	int score = 2;
+	int score = 0;
 
 	void OnCollisionEnter(Collision hit) {
 		if (hit.gameObject.tag == "Pickup") {
