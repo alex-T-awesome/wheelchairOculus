@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CollectableBehaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Gem\Shaders\Gem.shader">
     <Files>
-      <File FileName="Assets\CollectableBehaviour.cs" Line="6" Column="38" />
+      <File FileName="Assets\Gem\Shaders\Gem.shader" Line="1" Column="1" />
       <File FileName="Assets\CustomScripts\WheelchairControl.cs" Line="1" Column="1" />
       <File FileName="Assets\CustomScripts\NewControlScript.cs" Line="1" Column="1" />
       <File FileName="Assets\CustomScripts\SuperSimpleControl.cs" Line="1" Column="1" />
