@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: e45ef072b4c888a41aae1c062fb676a5
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: blackMetalParts
+    100002: fabricParts
+    100004: frontWheelLeft
+    100006: frontWheelRight
+    100008: middleWheelLeft
+    100010: middleWheelRight
+    100012: plasticRubberParts
+    100014: //RootNode
+    100016: rearWheelBrace
+    100018: rearWheelBrace01
+    100020: rearWheelLeft
+    100022: rearWheelRight
+    100024: silverMetalBits
+    100026: simplifiedCollision
+    100028: WheelChairBase
+    400000: blackMetalParts
+    400002: fabricParts
+    400004: frontWheelLeft
+    400006: frontWheelRight
+    400008: middleWheelLeft
+    400010: middleWheelRight
+    400012: plasticRubberParts
+    400014: //RootNode
+    400016: rearWheelBrace
+    400018: rearWheelBrace01
+    400020: rearWheelLeft
+    400022: rearWheelRight
+    400024: silverMetalBits
+    400026: simplifiedCollision
+    400028: WheelChairBase
+    2300000: blackMetalParts
+    2300002: fabricParts
+    2300004: frontWheelLeft
+    2300006: frontWheelRight
+    2300008: middleWheelLeft
+    2300010: middleWheelRight
+    2300012: plasticRubberParts
+    2300014: rearWheelBrace
+    2300016: rearWheelBrace01
+    2300018: rearWheelLeft
+    2300020: rearWheelRight
+    2300022: silverMetalBits
+    2300024: simplifiedCollision
+    2300026: WheelChairBase
+    3300000: blackMetalParts
+    3300002: fabricParts
+    3300004: frontWheelLeft
+    3300006: frontWheelRight
+    3300008: middleWheelLeft
+    3300010: middleWheelRight
+    3300012: plasticRubberParts
+    3300014: rearWheelBrace
+    3300016: rearWheelBrace01
+    3300018: rearWheelLeft
+    3300020: rearWheelRight
+    3300022: silverMetalBits
+    3300024: simplifiedCollision
+    3300026: WheelChairBase
+    4300000: rearWheelLeft
+    4300002: middleWheelLeft
+    4300004: frontWheelLeft
+    4300006: silverMetalBits
+    4300008: WheelChairBase
+    4300010: rearWheelRight
+    4300012: middleWheelRight
+    4300014: rearWheelBrace
+    4300016: frontWheelRight
+    4300018: rearWheelBrace01
+    4300020: fabricParts
+    4300022: plasticRubberParts
+    4300024: simplifiedCollision
+    4300026: blackMetalParts
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

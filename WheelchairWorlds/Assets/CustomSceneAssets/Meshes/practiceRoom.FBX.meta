@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: 9310c1410be82fa4697af80389ccf923
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Box01
+    100002: DoorFrame
+    100004: DoorFrame01
+    100006: DoorFrame02
+    100008: DoorFrame03
+    100010: DoorFrame04
+    100012: DoorFrame05
+    100014: DoorFrame06
+    100016: DoorFrame07
+    100018: floorTrim05
+    100020: floorTrim06
+    100022: floorTrim07
+    100024: floorTrim08
+    100026: floorTrim09
+    100028: floorTrim10
+    100030: floorTrim11
+    100032: floorTrim12
+    100034: floorTrim13
+    100036: floorTrim14
+    100038: floorTrim15
+    100040: floorTrim16
+    100042: floorTrim17
+    100044: floorTrim18
+    100046: floorTrim19
+    100048: floorTrim20
+    100050: floorTrim21
+    100052: floorTrim22
+    100054: floorTrim23
+    100056: floorTrim24
+    100058: FrontOfficeFloor
+    100060: hallway floorTrim
+    100062: hallway floorTrim01
+    100064: hallway floorTrim03
+    100066: hallway floorTrim05
+    100068: hallway floorTrim06
+    100070: hallway floorTrim07
+    100072: hallway floorTrim08
+    100074: hallway floorTrim09
+    100076: MainRoomCeiling
+    100078: mainRoomFloor
+    100080: //RootNode
+    100082: RearOfficeRoom
+    100084: rearRoomFloor
+    100086: windowFrame
+    100088: windowFrame03
+    100090: windowFrame04
+    100092: windowFrame05
+    100094: windowFrame06
+    100096: windowFrame07
+    100098: windowFrame08
+    100100: windowFrame09
+    100102: windowFrame10
+    100104: windowFrame11
+    100106: windowFrame12
+    100108: windowFrame13
+    100110: windowFrame14
+    400000: Box01
+    400002: DoorFrame
+    400004: DoorFrame01
+    400006: DoorFrame02
+    400008: DoorFrame03
+    400010: DoorFrame04
+    400012: DoorFrame05
+    400014: DoorFrame06
+    400016: DoorFrame07
+    400018: floorTrim05
+    400020: floorTrim06
+    400022: floorTrim07
+    400024: floorTrim08
+    400026: floorTrim09
+    400028: floorTrim10
+    400030: floorTrim11
+    400032: floorTrim12
+    400034: floorTrim13
+    400036: floorTrim14
+    400038: floorTrim15
+    400040: floorTrim16
+    400042: floorTrim17
+    400044: floorTrim18
+    400046: floorTrim19
+    400048: floorTrim20
+    400050: floorTrim21
+    400052: floorTrim22
+    400054: floorTrim23
+    400056: floorTrim24
+    400058: FrontOfficeFloor
+    400060: hallway floorTrim
+    400062: hallway floorTrim01
+    400064: hallway floorTrim03
+    400066: hallway floorTrim05
+    400068: hallway floorTrim06
+    400070: hallway floorTrim07
+    400072: hallway floorTrim08
+    400074: hallway floorTrim09
+    400076: MainRoomCeiling
+    400078: mainRoomFloor
+    400080: //RootNode
+    400082: RearOfficeRoom
+    400084: rearRoomFloor
+    400086: windowFrame
+    400088: windowFrame03
+    400090: windowFrame04
+    400092: windowFrame05
+    400094: windowFrame06
+    400096: windowFrame07
+    400098: windowFrame08
+    400100: windowFrame09
+    400102: windowFrame10
+    400104: windowFrame11
+    400106: windowFrame12
+    400108: windowFrame13
+    400110: windowFrame14
+    2300000: Box01
+    2300002: DoorFrame
+    2300004: DoorFrame01
+    2300006: DoorFrame02
+    2300008: DoorFrame03
+    2300010: DoorFrame04
+    2300012: DoorFrame05
+    2300014: DoorFrame06
+    2300016: DoorFrame07
+    2300018: floorTrim05
+    2300020: floorTrim06
+    2300022: floorTrim07
+    2300024: floorTrim08
+    2300026: floorTrim09
+    2300028: floorTrim10
+    2300030: floorTrim11
+    2300032: floorTrim12
+    2300034: floorTrim13
+    2300036: floorTrim14
+    2300038: floorTrim15
+    2300040: floorTrim16
+    2300042: floorTrim17
+    2300044: floorTrim18
+    2300046: floorTrim19
+    2300048: floorTrim20
+    2300050: floorTrim21
+    2300052: floorTrim22
+    2300054: floorTrim23
+    2300056: floorTrim24
+    2300058: FrontOfficeFloor
+    2300060: hallway floorTrim
+    2300062: hallway floorTrim01
+    2300064: hallway floorTrim03
+    2300066: hallway floorTrim05
+    2300068: hallway floorTrim06
+    2300070: hallway floorTrim07
+    2300072: hallway floorTrim08
+    2300074: hallway floorTrim09
+    2300076: MainRoomCeiling
+    2300078: mainRoomFloor
+    2300080: RearOfficeRoom
+    2300082: rearRoomFloor
+    2300084: windowFrame
+    2300086: windowFrame03
+    2300088: windowFrame04
+    2300090: windowFrame05
+    2300092: windowFrame06
+    2300094: windowFrame07
+    2300096: windowFrame08
+    2300098: windowFrame09
+    2300100: windowFrame10
+    2300102: windowFrame11
+    2300104: windowFrame12
+    2300106: windowFrame13
+    2300108: windowFrame14
+    3300000: Box01
+    3300002: DoorFrame
+    3300004: DoorFrame01
+    3300006: DoorFrame02
+    3300008: DoorFrame03
+    3300010: DoorFrame04
+    3300012: DoorFrame05
+    3300014: DoorFrame06
+    3300016: DoorFrame07
+    3300018: floorTrim05
+    3300020: floorTrim06
+    3300022: floorTrim07
+    3300024: floorTrim08
+    3300026: floorTrim09
+    3300028: floorTrim10
+    3300030: floorTrim11
+    3300032: floorTrim12
+    3300034: floorTrim13
+    3300036: floorTrim14
+    3300038: floorTrim15
+    3300040: floorTrim16
+    3300042: floorTrim17
+    3300044: floorTrim18
+    3300046: floorTrim19
+    3300048: floorTrim20
+    3300050: floorTrim21
+    3300052: floorTrim22
+    3300054: floorTrim23
+    3300056: floorTrim24
+    3300058: FrontOfficeFloor
+    3300060: hallway floorTrim
+    3300062: hallway floorTrim01
+    3300064: hallway floorTrim03
+    3300066: hallway floorTrim05
+    3300068: hallway floorTrim06
+    3300070: hallway floorTrim07
+    3300072: hallway floorTrim08
+    3300074: hallway floorTrim09
+    3300076: MainRoomCeiling
+    3300078: mainRoomFloor
+    3300080: RearOfficeRoom
+    3300082: rearRoomFloor
+    3300084: windowFrame
+    3300086: windowFrame03
+    3300088: windowFrame04
+    3300090: windowFrame05
+    3300092: windowFrame06
+    3300094: windowFrame07
+    3300096: windowFrame08
+    3300098: windowFrame09
+    3300100: windowFrame10
+    3300102: windowFrame11
+    3300104: windowFrame12
+    3300106: windowFrame13
+    3300108: windowFrame14
+    4300000: windowFrame
+    4300002: Box01
+    4300004: windowFrame03
+    4300006: windowFrame04
+    4300008: windowFrame05
+    4300010: windowFrame06
+    4300012: windowFrame07
+    4300014: windowFrame08
+    4300016: windowFrame09
+    4300018: windowFrame10
+    4300020: windowFrame11
+    4300022: windowFrame12
+    4300024: windowFrame13
+    4300026: windowFrame14
+    4300028: DoorFrame
+    4300030: DoorFrame01
+    4300032: DoorFrame02
+    4300034: DoorFrame03
+    4300036: DoorFrame04
+    4300038: DoorFrame05
+    4300040: DoorFrame06
+    4300042: DoorFrame07
+    4300044: floorTrim05
+    4300046: floorTrim06
+    4300048: floorTrim07
+    4300050: floorTrim08
+    4300052: floorTrim09
+    4300054: hallway floorTrim
+    4300056: hallway floorTrim01
+    4300058: hallway floorTrim03
+    4300060: hallway floorTrim05
+    4300062: hallway floorTrim06
+    4300064: hallway floorTrim07
+    4300066: hallway floorTrim08
+    4300068: hallway floorTrim09
+    4300070: floorTrim10
+    4300072: floorTrim11
+    4300074: floorTrim12
+    4300076: floorTrim13
+    4300078: floorTrim14
+    4300080: floorTrim15
+    4300082: floorTrim16
+    4300084: floorTrim17
+    4300086: floorTrim18
+    4300088: floorTrim19
+    4300090: floorTrim20
+    4300092: floorTrim21
+    4300094: floorTrim22
+    4300096: floorTrim23
+    4300098: floorTrim24
+    4300100: mainRoomFloor
+    4300102: MainRoomCeiling
+    4300104: rearRoomFloor
+    4300106: RearOfficeRoom
+    4300108: FrontOfficeFloor
+    6400000: Box01
+    6400002: DoorFrame
+    6400004: DoorFrame01
+    6400006: DoorFrame02
+    6400008: DoorFrame03
+    6400010: DoorFrame04
+    6400012: DoorFrame05
+    6400014: DoorFrame06
+    6400016: DoorFrame07
+    6400018: floorTrim05
+    6400020: floorTrim06
+    6400022: floorTrim07
+    6400024: floorTrim08
+    6400026: floorTrim09
+    6400028: floorTrim10
+    6400030: floorTrim11
+    6400032: floorTrim12
+    6400034: floorTrim13
+    6400036: floorTrim14
+    6400038: floorTrim15
+    6400040: floorTrim16
+    6400042: floorTrim17
+    6400044: floorTrim18
+    6400046: floorTrim19
+    6400048: floorTrim20
+    6400050: floorTrim21
+    6400052: floorTrim22
+    6400054: floorTrim23
+    6400056: floorTrim24
+    6400058: FrontOfficeFloor
+    6400060: hallway floorTrim
+    6400062: hallway floorTrim01
+    6400064: hallway floorTrim03
+    6400066: hallway floorTrim05
+    6400068: hallway floorTrim06
+    6400070: hallway floorTrim07
+    6400072: hallway floorTrim08
+    6400074: hallway floorTrim09
+    6400076: MainRoomCeiling
+    6400078: mainRoomFloor
+    6400080: RearOfficeRoom
+    6400082: rearRoomFloor
+    6400084: windowFrame
+    6400086: windowFrame03
+    6400088: windowFrame04
+    6400090: windowFrame05
+    6400092: windowFrame06
+    6400094: windowFrame07
+    6400096: windowFrame08
+    6400098: windowFrame09
+    6400100: windowFrame10
+    6400102: windowFrame11
+    6400104: windowFrame12
+    6400106: windowFrame13
+    6400108: windowFrame14
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
