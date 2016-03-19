@@ -4,8 +4,8 @@ using System.Collections;
 public class WheelchairControl : MonoBehaviour {
 
     public float forwardAcceleration = 120.0f;
-    public float turnSpeed = 1.0f;
-    public float maxiumSpeed = 2;
+    public float turnSpeed = 0.25f;
+    public float maxiumSpeed = 1.1f;
     public float joystickHorizontalDeadZone = 0.5f;
 
     // Use this for initialization
@@ -39,7 +39,7 @@ public class WheelchairControl : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         float forwardForce = 0.0f;//actual amount we will move this frame
         forwardForce = Input.GetAxis("Vertical") * this.forwardAcceleration;
