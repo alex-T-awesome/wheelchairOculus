@@ -14,7 +14,11 @@ public class CollectableBehaviour : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if (Input.GetKeyUp(KeyCode.H))
+        {
+            collectableObject.GetComponentInChildren<MeshRenderer>().enabled = !gameObject.GetComponentInChildren<MeshRenderer>().enabled;
+            collectableObject.GetComponent<Collider>().enabled = !collectableObject.GetComponent<Collider>().enabled;
+        }
 	
 	}
 
