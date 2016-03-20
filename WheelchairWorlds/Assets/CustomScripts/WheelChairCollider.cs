@@ -1,10 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class WheelChairCollider : MonoBehaviour {
+public class WheelChairCollider : MonoBehaviour
+{
 
-	public TextMesh HeadsUpDisplay;
-	int score = 0;
+    public TextMesh HeadsUpDisplay;
+    public TextMesh GameWinDisplay;
+    int score = 0;
+    GameObject[] gems;
+    int gemsToCollect;
+    int gemsCollected = 0;
+
+    void Start()
+    {
+        gems = GameObject.FindGameObjectsWithTag("Pickup");
+        gemsToCollect = gems.Length;
+        HeadsUpDisplay.text = "Score: " + score + "\n" + "Progress: " + gemsCollected + "/" + gemsToCollect;
+        GameWinDisplay.GetComponent<MeshRenderer>().enabled = false;
+
+    }
 
     void Update()
     {
@@ -14,13 +28,25 @@ public class WheelChairCollider : MonoBehaviour {
         }
     }
 
-	void OnCollisionEnter(Collision hit) {
-		if (hit.gameObject.tag == "Pickup") {
-			score++;
-			HeadsUpDisplay.text = "" + score;
-		} else if (hit.gameObject.tag == "Avoid") {
-			score--;
-			HeadsUpDisplay.text = "" + score;
-		}
-	}
+    void OnCollisionEnter(Collision hit)
+    {
+        if (hit.gameObject.tag == "Pickup")
+        {
+            score++;
+            gemsCollected++;
+            HeadsUpDisplay.text = "Score: " + score + "\n" + "Progress: " + gemsCollected + "/" + gemsToCollect;
+            //Check if game is over
+            if (gemsToCollect <= gemsCollected)
+            {
+                //Game has been finished 
+                GameWinDisplay.GetComponent<MeshRenderer>().enabled = true;
+                GameWinDisplay.text = "You have collected all the gems!\nPress spacebar to reset";
+            }
+        }
+        else if (hit.gameObject.tag == "Avoid")
+        {
+            score--;
+            HeadsUpDisplay.text = "Score: " + score + "\n" + "Progress: " + gemsCollected + "/" + gemsToCollect;
+        }
+    }
 }
