@@ -10,9 +10,11 @@ public class WheelChairCollider : MonoBehaviour
     GameObject[] gems;
     int gemsToCollect;
     int gemsCollected = 0;
+    AudioSource[] win;
 
     void Start()
     {
+        win = GetComponents<AudioSource>();
         gems = GameObject.FindGameObjectsWithTag("Pickup");
         gemsToCollect = gems.Length;
         HeadsUpDisplay.text = "Score: " + score + "\n" + "Progress: " + gemsCollected + "/" + gemsToCollect;
@@ -41,6 +43,7 @@ public class WheelChairCollider : MonoBehaviour
                 //Game has been finished 
                 GameWinDisplay.GetComponent<MeshRenderer>().enabled = true;
                 GameWinDisplay.text = "You have collected all the gems!\nPress spacebar to reset";
+                win[3].Play();
             }
         }
         else if (hit.gameObject.tag == "Avoid")
