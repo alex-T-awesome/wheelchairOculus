@@ -17,11 +17,11 @@ public class CollectableBehaviour : MonoBehaviour {
 	
 	}
 
-	private void OnCollisionEnter(Collision col)
+	void OnCollisionEnter(Collision col)
 	{
 		if(col.gameObject.name == "PlayerController")
 		{
-			collectableObject.SetActive (false);
+			collectableObject.SetActive(false);
 		}
 	}
 }
