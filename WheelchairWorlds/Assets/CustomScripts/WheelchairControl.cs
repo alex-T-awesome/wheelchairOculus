@@ -8,12 +8,18 @@ public class WheelchairControl : MonoBehaviour {
     public float maxiumSpeed = 1.1f;
     public float joystickHorizontalDeadZone = 0.5f;
 	public float joystickVerticalDeadZone = 0f;
-	AudioSource audio;
+	AudioSource[] audioSources;
+	AudioSource start;
+	AudioSource hum;
+	AudioSource stop;
 
     // Use this for initialization
     void Start()
     {
-		audio = GetComponent<AudioSource> ();
+		audioSources = GetComponents<AudioSource>();
+		start = audioSources[0]; 
+		hum = audioSources[1]; 
+		stop = audioSources[2];
     }
 
     void OnGUI(){
@@ -89,15 +95,23 @@ public class WheelchairControl : MonoBehaviour {
         turnAmount = adjustedAxis * this.turnSpeed;
 
 		if (Mathf.Abs (Input.GetAxis ("Horizontal")) > this.joystickHorizontalDeadZone) {
-			if (!audio.isPlaying) {
-				audio.Play ();
+			if (!start.isPlaying && !hum.isPlaying && !stop.isPlaying) {
+				start.Play ();
+				hum.Play ();
 			}
 		} else if (Mathf.Abs (Input.GetAxis ("Vertical")) > 0) {
-			if (!audio.isPlaying) {
-				audio.Play ();
+			if (!start.isPlaying && !hum.isPlaying && !stop.isPlaying) {
+				start.Play ();
+				hum.Play ();
 			}
 		} else {
-			audio.Pause ();
+			if (start.isPlaying) {
+				start.Stop ();
+				stop.Play ();
+			} else if (hum.isPlaying) {
+				hum.Stop ();
+				stop.Play ();
+			}
 		}
 
         this.transform.Rotate(0, turnAmount, 0);
