@@ -8,7 +8,6 @@ public class Timer : MonoBehaviour {
 	string minutes;
 	string seconds;
 
-	// Update is called once per frame
 	void Update () {
 		minutes = Mathf.Floor(Time.time / 60).ToString("00");
 		seconds = Mathf.Floor(Time.time % 60).ToString("00");
