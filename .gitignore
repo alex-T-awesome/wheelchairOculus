@@ -1,5 +1,6 @@
 # Windows image file caches
 Thumbs.db
+Thumbs.db.meta
 ehthumbs.db
 
 # Folder config file
@@ -49,3 +50,4 @@ WheelchairWorlds/obj/
 *.vs
 *.csproj
 *.sln
+WheelchairWorlds/ProjectSettings/ProjectVersion.txt

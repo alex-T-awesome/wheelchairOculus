@@ -4,14 +4,16 @@ using System.Collections;
 public class WheelchairControl : MonoBehaviour {
 
     public float forwardAcceleration = 120.0f;
-    public float turnSpeed = 1.0f;
-    public float maxiumSpeed = 2;
+    public float turnSpeed = 0.25f;
+    public float maxiumSpeed = 1.1f;
     public float joystickHorizontalDeadZone = 0.5f;
+	public float joystickVerticalDeadZone = 0f;
+	AudioSource audio;
 
     // Use this for initialization
     void Start()
     {
-
+		audio = GetComponent<AudioSource> ();
     }
 
     void OnGUI(){
@@ -39,7 +41,7 @@ public class WheelchairControl : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         float forwardForce = 0.0f;//actual amount we will move this frame
         forwardForce = Input.GetAxis("Vertical") * this.forwardAcceleration;
@@ -77,6 +79,7 @@ public class WheelchairControl : MonoBehaviour {
         else if (adjustedAxis > 0)
         {
             adjustedAxis = (adjustedAxis - this.joystickHorizontalDeadZone) * (1.0f / this.joystickHorizontalDeadZone);
+
         }
         else
         {
@@ -85,7 +88,20 @@ public class WheelchairControl : MonoBehaviour {
 
         turnAmount = adjustedAxis * this.turnSpeed;
 
+		if (Mathf.Abs (Input.GetAxis ("Horizontal")) > this.joystickHorizontalDeadZone) {
+			if (!audio.isPlaying) {
+				audio.Play ();
+			}
+		} else if (Mathf.Abs (Input.GetAxis ("Vertical")) > 0) {
+			if (!audio.isPlaying) {
+				audio.Play ();
+			}
+		} else {
+			audio.Pause ();
+		}
+
         this.transform.Rotate(0, turnAmount, 0);
         this.GetComponent<Rigidbody>().AddRelativeForce(forwardForce * Vector3.forward);
+
     }
 }
