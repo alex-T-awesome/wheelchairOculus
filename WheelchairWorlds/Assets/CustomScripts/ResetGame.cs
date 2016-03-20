@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class ResetGame : MonoBehaviour {
 
@@ -10,7 +11,7 @@ public class ResetGame : MonoBehaviour {
 	
 	void Update () {
         if (Input.GetKeyUp(KeyCode.Space)){
-            Application.LoadLevel(Application.loadedLevel);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 	}
 }
