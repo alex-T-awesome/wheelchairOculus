@@ -5,9 +5,11 @@ public class CollectableBehaviour : MonoBehaviour {
 
 	public GameObject collectableObject;
 	public AudioClip jingle;
+	public float volume;
 
 	// Use this for initialization
 	void Start () {
+		volume = 0.5f;
 	}
 	
 	// Update is called once per frame
@@ -20,7 +22,7 @@ public class CollectableBehaviour : MonoBehaviour {
 	{
 		if(col.gameObject.name == "PlayerController")
 		{
-			AudioSource.PlayClipAtPoint (jingle, transform.position);
+			AudioSource.PlayClipAtPoint (jingle, transform.position, volume);
 			Destroy(collectableObject);
 		}
 	}
